@@ -1,4 +1,4 @@
-{
+{ 
   "settingsInheritedFrom": "Mend-DemoCorp/whitesource-config@main",
   "remediateSettings": {
     "workflowRules": {
