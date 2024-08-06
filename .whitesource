@@ -1,3 +1,13 @@
 {
-  "settingsInheritedFrom": "Mend-DemoCorp/whitesource-config@main"
+  "settingsInheritedFrom": "Mend-DemoCorp/whitesource-config@main",
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    },
+    "enableRenovate": false,
+    "ignorePresets": ["config:recommended", "github>GarySegal-Mend-Democorp/whitesource-config:smart-merge"]
+  },
+  "leastVulnerablePackageSettings": {
+    "enabled": true
+  }
 }
