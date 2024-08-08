@@ -5,7 +5,8 @@
       "enabled": true
     },
     "enableRenovate": false,
-    "ignorePresets": ["config:recommended", "github>GarySegal-Mend-Democorp/whitesource-config:smart-merge"]
+    "ignorePresets": ["config:recommended", "github>GarySegal-Mend-Democorp/whitesource-config:smart-merge"],
+    "extends": ["mergeConfidence:all-badges"]
   },
   "leastVulnerablePackageSettings": {
     "enabled": true
