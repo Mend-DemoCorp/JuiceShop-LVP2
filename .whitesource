@@ -1,10 +1,24 @@
 { 
-  "settingsInheritedFrom": "Mend-DemoCorp/whitesource-config@main",
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "enableLicenseViolations": true,
+    "enableReachability": true,
+    "baseBranches": []
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true
+  },
+  "issueSettings": {
+    "minSeverityLevel": "MEDIUM",
+    "issueType": "DEPENDENCY"
+  },
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
     },
-    "enableRenovate": false,
     "ignorePresets": ["config:recommended", "github>GarySegal-Mend-Democorp/whitesource-config:smart-merge"],
     "extends": ["mergeConfidence:all-badges"]
   },
